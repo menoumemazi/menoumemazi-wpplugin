@@ -1,0 +1,122 @@
+/* Finder Item */
+.finder-container {
+  margin-top: 40px;
+  min-height: 400px;
+}
+.finder-container .clear {
+  border-radius: 8px;
+  padding: 5px 8px 5px 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.finder-filter {
+  margin-bottom: 20px;
+}
+.finder-filter label {
+  margin-top: 20px;
+  margin-right: 10px;
+  font-weight: normal;
+}
+.finder-filter input {
+  border: 0px;
+  border-bottom: 1px solid grey;
+  line-height: 30px;
+  padding: 5px;
+}
+.finder-filter .tag-container {
+  margin-top: 15px;
+}
+.finder-filter .tag-container span {
+  font-size: 15px;
+  padding: 4px 8px 4px 8px;
+  background: #cccbcb;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.finder-filter .tag-container span:hover, .finder-filter .tag-container span.active {
+  background-color: #0d333a;
+  color: #fff;
+}
+.finder-item {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.finder-item .date {
+  color: grey;
+  margin-right: 10px;
+}
+.finder-item .term {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.finder-item .term span {
+  color: #000;
+  margin-right: 10px;
+}
+.finder-item .fb-link {
+  display: block;
+  color: #3b5998;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.finder-item .desc {
+  margin-top: 15px;
+}
+.finder-item .desc p {
+  font-size: 14px;
+  margin-bottom: 5px !important;
+}
+a .finder-item:hover {
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.2);
+}
+a .finder-item h4:hover {
+  color: #d371d8;
+}
+.masonry {
+  column-count: 3;
+  column-gap: 1em;
+}
+@media only screen and (max-width: 980px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .masonry {
+    column-count: 1;
+  }
+}
+.masonry-item {
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+/* Custom for Finders */
+#localgroup-finder {
+  padding-bottom: 40px;
+}
+@media only screen and (min-width: 980px) {
+  #union-finder .masonry {
+    column-count: 2;
+  }
+}
+#union-finder .union-item .term span {
+  float: left;
+  display: block;
+}
+
+//Report Finder
+.finder-filter .tag-container span {
+    font-size: 15px;
+    padding: 4px 8px 4px 8px;
+    background: #cccbcb;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 6px;
+    cursor: pointer;

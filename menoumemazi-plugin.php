@@ -21,7 +21,7 @@ function mazi_plugin_scripts(){
 	global $post;
 	//Scripts for Cases
 	if(has_shortcode( $post->post_content, 'group_finder')|| has_shortcode( $post->post_content, 'report_finder') || has_shortcode( $post->post_content, 'union_finder')){
-		wp_enqueue_style( 'memberscss', plugin_dir_url( __FILE__ ).'finders.scss', '', time() );
+		wp_enqueue_style( 'mazi_css', plugin_dir_url( __FILE__ ).'finders.css', '', time() );
 	}
 	if(has_shortcode( $post->post_content, 'group_finder')){
 		wp_enqueue_script( 'mazi_groupsjs', plugin_dir_url( __FILE__ ).'react/prod/group-finder.js', ['wp-element'], time() , 1);	
