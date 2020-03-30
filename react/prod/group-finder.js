@@ -92,7 +92,7 @@ class GroupFinder extends React.Component {
           type: "text",
           onChange: this.filterItemsbyArea.bind(this)
         }))), e("div", {
-          class: "masonry finder-content groups"
+          class: "row masonry finder-content groups"
         }, items.map(function (item) {
           return e("div", {
             class: "masonry-item",

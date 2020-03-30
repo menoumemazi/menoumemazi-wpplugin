@@ -167,7 +167,7 @@ class ReportFinder extends React.Component {
         }, e("label", null, "Αναζητήστε Εταιρία"), e("input", {
           value: this.state.input,
           type: "text",
-          onChange: this.filterItemsbyCompany.bindthis
+          onChange: this.filterItemsbyCompany.bind(this)
         }))), e("div", {
           className: "row"
         }, e("div", {

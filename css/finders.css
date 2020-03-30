@@ -1,3 +1,11 @@
+/* General */
+.mazi-container{
+  background: #f4f4f4;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* Finder Item */
 .finder-container {
   margin-top: 40px;
@@ -17,11 +25,12 @@
   margin-right: 10px;
   font-weight: normal;
 }
-.finder-filter input {
+.finder-filter input[type="text"] {
   border: 0px;
   border-bottom: 1px solid grey;
   line-height: 30px;
   padding: 5px;
+  background:#fff;
 }
 .finder-filter .tag-container {
   margin-top: 15px;
@@ -36,7 +45,8 @@
   border-radius: 6px;
   cursor: pointer;
 }
-.finder-filter .tag-container span:hover, .finder-filter .tag-container span.active {
+.finder-filter .tag-container span:hover,
+.finder-filter .tag-container span.active {
   background-color: #0d333a;
   color: #fff;
 }
@@ -45,6 +55,10 @@
   padding: 20px;
   box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+}
+.mazi-container .finder-item h4{
+  color:#0d333a;
+  text-transform: none ;
 }
 .finder-item .date {
   color: grey;
@@ -68,6 +82,7 @@
   margin-top: 15px;
 }
 .finder-item .desc p {
+  color:#000;
   font-size: 14px;
   margin-bottom: 5px !important;
 }
@@ -77,6 +92,7 @@ a .finder-item:hover {
 a .finder-item h4:hover {
   color: #d371d8;
 }
+
 .masonry {
   column-count: 3;
   column-gap: 1em;
@@ -96,11 +112,9 @@ a .finder-item h4:hover {
   margin: 0 0 1em;
   width: 100%;
 }
-/* Custom for Finders */
-#localgroup-finder {
-  padding-bottom: 40px;
-}
-@media only screen and (min-width: 980px) {
+
+/* Custom for Union Finder */
+@media only screen and (min-width: 960px) {
   #union-finder .masonry {
     column-count: 2;
   }
@@ -110,13 +124,14 @@ a .finder-item h4:hover {
   display: block;
 }
 
-//Report Finder
+/* Finder Filter */
 .finder-filter .tag-container span {
-    font-size: 15px;
-    padding: 4px 8px 4px 8px;
-    background: #cccbcb;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    display: inline-block;
-    border-radius: 6px;
-    cursor: pointer;
+  font-size: 15px;
+  padding: 4px 8px 4px 8px;
+  background: #cccbcb;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border-radius: 6px;
+  cursor: pointer;
+}

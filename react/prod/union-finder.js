@@ -22,7 +22,7 @@ class UnionFinder extends React.Component {
             .then(res => res.json())
             .then(
                 (result) => {
-                    console.log(result);
+                    //console.log(result);
                     result.forEach(
                         (item) => {
                             //Map Area Terms
