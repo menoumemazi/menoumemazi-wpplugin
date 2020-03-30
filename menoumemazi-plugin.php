@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Menoumemazi Plugin
+Plugin Name: menoumemazi.org Plugin
 Plugin URI:  https://github.com/menoumemazi/menoumemazi-wpplugin
-Description: This plugin makes it easy to display data from menoumemazi.org. Please read 'readme.txt' for instructions on how to use it.
+Description: This plugin makes it easy to display data from menoumemazi.org. Please read 'README.md' or the plugin site for instructions on how to use it.
 Version: 0.1
 Author: Menoume mazi
 Author URI: https://menoumemazi.org
